@@ -2,10 +2,10 @@
 # mac-to-oui
  A simple MAC Address to Manufacturer Information json response.
  
-#### Requierments
+### Requierments
 PHP based webserver
 
-#### Usage
+### Usage
 On first run the script will download the latest oui.txt file (The source of which can be changed within the script)
 
 To recieve a Json reply with the MAC address manufacturer simple pass the MAC address in the query string.
@@ -25,7 +25,7 @@ would return
     }
 Note: you can see the data_source **date** in the response.
 
-#### Refresh the OUI data file
+### Refresh the OUI data file
 Periodically you may wish to update the oui.txt file from the orginal source.
 
 To acheive this include **&refresh=yes** on the end of a request
