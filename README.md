@@ -10,7 +10,7 @@ On first run the script will download the latest oui.txt file (The source of whi
 
 To recieve a Json reply with the MAC address manufacturer simple pass the MAC address in the query string.
 
-For example: https://example.com/**?mac=08:00:20**
+For example: **?mac=08:00:20**
 
 would return
 
@@ -31,7 +31,7 @@ Periodically you may wish to update the oui.txt file from the orginal source.
 To acheive this include **&refresh=yes** on the end of a request
 This request will take longer of course as it will go and re-download the oui.txt file before responding.
 
-For example: https://example.com/**?mac=08:00:20&refresh=yes**
+For example: **?mac=08:00:20&refresh=yes**
 
 ---
 *Disclamier: Use at your own peril, somme basic error checking is present, but could be improved on (if anyone wants to add suggestions and code improvements please feel free to submit them)*
