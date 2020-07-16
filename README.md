@@ -1,3 +1,4 @@
+
 # mac-to-oui
  A simple MAC Address to Manufacturer Information json response.
  
@@ -32,3 +33,5 @@ This request will take longer of course as it will go and re-download the oui.tx
 
 For example: https://example.com/**?mac=08:00:20&refresh=yes**
 
+---
+*Disclamier: Use at your own peril, somme basic error checking is present, but could be improved on (if anyone wants to add suggestions and code improvements please feel free to submit them)*
